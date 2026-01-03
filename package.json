@@ -1,5 +1,5 @@
 {
-  "name": "@rexxhayanasi/elaina-baileys",
+  "name": "@KaviDeveloperSe/kavi-baileys",
   "version": "1.2.1-rc.3",
   "description": "Custom Baileys WhatsApp API",
   "keywords": [
@@ -13,14 +13,14 @@
     "whatsapp-bot",
     "automation", 
     "multi-device",
-    "RexxHayanasi"
+    "KaviDeveloperSe"
   ],
   "homepage": "https://whatsapp.com/channel/0029Vb70uHbD8SE2w5Q9M107",
   "license": "MIT",
   "publishConfig": {
     "tag": "latest"
   },
-  "author": "RexxHayanasi",
+  "author": "KaviDeveloperSe",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -39,8 +39,8 @@
     "gen:protobuf": "sh WAProto/GenerateStatics.sh",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
-    "prepack": "echo 'RexxHayanasi WhatsApp Library'",
-    "prepare": "echo 'RexxHayanasi WhatsApp Library'",
+    "prepack": "echo 'KaviDeveloperSe WhatsApp Library'",
+    "prepare": "echo 'KaviDeveloperSe WhatsApp Library'",
     "preinstall": "node ./engine-requirements.js",
     "release": "release-it",
     "test": "jest"
